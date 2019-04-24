@@ -13,6 +13,7 @@ import Header from "./header";
 //import "./layout.css";
 //import "../sass/layout.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Section from "./section/section";
 
 const Layout = ({ children }) => (
   <StaticQuery
