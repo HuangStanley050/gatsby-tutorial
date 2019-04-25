@@ -8,7 +8,7 @@ const Dude = props => {
     <StaticQuery
       render={data => {
         console.log(data);
-        return <Img fixed={data.file.childImageSharp.fixed} />;
+        return <Img fluid={data.file.childImageSharp.fluid} />;
       }}
       query={getDude}
     />
@@ -21,8 +21,8 @@ const getDude = graphql`
       relativePath: { eq: "newImages/tekken-7-hd-wallpapers-33753-5970439.jpg" }
     ) {
       childImageSharp {
-        fixed(width: 200) {
-          ...GatsbyImageSharpFixed_tracedSVG
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }

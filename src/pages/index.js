@@ -8,7 +8,7 @@ import { Button } from "reactstrap";
 import { FaAirbnb } from "react-icons/fa";
 import Info from "../components/info";
 //import Section from "../components/section/section";
-import img from "../images/newImages/angularjs.png";
+//import img from "../images/newImages/angularjs.png";
 import Dude from "../components/dude";
 
 const IndexPage = () => (
