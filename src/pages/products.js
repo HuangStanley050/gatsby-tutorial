@@ -18,8 +18,8 @@ const Products = ({ data }) => {
                 ${node.node.price}
               </span>
             </h3>
-            <p>{node.node.description.description}</p>
-            <Link to="/">
+            {/*<p>{node.node.description.description}</p>*/}
+            <Link to={`/products/${node.node.title}`}>
               <h2>Details</h2>
             </Link>
           </div>
