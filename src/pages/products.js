@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 import Img from "gatsby-image";
 
 const Products = ({ data }) => {
-  console.log(data);
+  //console.log(data);
   return (
     <Layout>
       <h1>Our Products</h1>
